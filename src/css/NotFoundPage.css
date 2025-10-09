@@ -1,0 +1,69 @@
+.not-found-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #0b0d17;
+  color: #d0d6f9;
+  text-align: center;
+  font-family: "Barlow Condensed", sans-serif;
+  background: url("../assets/destination/background-destination-desktop.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.not-found-content {
+  padding: 2rem;
+  max-width: 600px;
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  border-radius: 15px;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.not-found-image {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  margin-bottom: 1.5rem;
+}
+
+.not-found-content h1 {
+  font-size: 8rem;
+  margin-bottom: 1rem;
+  color: #ffffff;
+  letter-spacing: 5px;
+}
+
+.not-found-content h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+
+.not-found-content p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+}
+
+.home-button {
+  display: inline-block;
+  background-color: #ffffff;
+  color: #0b0d17;
+  padding: 0.8rem 2rem;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.home-button:hover {
+  background-color: #d0d6f9;
+  color: #0b0d17;
+}
