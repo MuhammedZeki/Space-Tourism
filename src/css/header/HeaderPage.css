@@ -2,12 +2,12 @@
   padding: 1rem 0;
   display: flex;
   align-items: center;
-  justify-content: flex-end;
-  flex-wrap: wrap;
+  justify-content: space-between;
 }
 .header-line {
-  width: 960px;
+  flex: 1;
   height: 1px;
+  margin-left: 1rem;
   background-color: #979797;
 }
 .logo {
@@ -55,4 +55,28 @@
   font-family: "Barlow", sans-serif;
   font-weight: 400;
   font-style: normal;
+}
+.menu-bar {
+  display: none;
+  color: #d0d6f9;
+  padding: 1rem 2rem;
+}
+.menu-bar .icon {
+  font-size: 1.5rem;
+}
+@media (max-width: 768px) {
+  .header-line {
+    display: none;
+  }
+}
+@media (max-width: 600px) {
+  .nav-links {
+    display: none;
+  }
+  .menu-bar {
+    display: block;
+  }
+  .header-nav {
+    align-items: center;
+  }
 }

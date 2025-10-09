@@ -6,8 +6,8 @@ const Header = () => {
     <header className="header-nav">
       <div className="logo">
         <img src={logo} alt="logo" />
-        <div className="header-line"></div>
       </div>
+      <div className="header-line"></div>
       <div className="nav-links">
         <div className="nav-link">
           <NavLink
@@ -45,6 +45,9 @@ const Header = () => {
             <p>TECHNOLOGY</p>
           </NavLink>
         </div>
+      </div>
+      <div className="menu-bar">
+        <i className="fa-solid fa-bars icon"></i>
       </div>
     </header>
   );
