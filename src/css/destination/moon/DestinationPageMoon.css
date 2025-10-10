@@ -2,7 +2,12 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 2rem;
+  margin: 0 auto;
+  width: 100%;
+}
+.destination-img img {
+  width: 480px;
+  height: 480px;
 }
 .destination-img {
   display: flex;
@@ -86,4 +91,71 @@
   font-weight: 400;
   font-style: normal;
   font-size: 1.8rem;
+}
+@media (max-width: 900px) {
+  .moon-content {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+  .destination-img {
+    padding: 2.5rem 1.75rem;
+  }
+  .destination-img img {
+    width: 250px;
+    height: 250px;
+  }
+  .destination-text {
+    text-align: center;
+  }
+  .cover {
+    align-items: center;
+    justify-content: center;
+  }
+  .moon-title {
+    font-size: 5rem;
+  }
+  .moon-text {
+    font-size: 1rem;
+  }
+  .distance-avg,
+  .travel-time {
+    font-size: 1rem;
+  }
+  .distance-km,
+  .travel-day {
+    font-size: 1.6rem;
+  }
+  .destination-statistics {
+    padding-bottom: 2rem;
+  }
+}
+@media (max-width: 600px) {
+  .moon-content {
+    align-items: center;
+    justify-content: center;
+  }
+  .destination-img {
+    padding: 3rem 1.75rem;
+  }
+  .destination-img img {
+    width: 150px;
+    height: 150px;
+  }
+  .tab {
+    font-size: 1.1rem;
+  }
+  .moon-title {
+    font-size: 3.5rem;
+  }
+  .moon-text {
+    font-size: 0.9rem;
+  }
+  .destination-statistics {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    text-align: center;
+  }
 }

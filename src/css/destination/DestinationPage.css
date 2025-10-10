@@ -2,11 +2,10 @@
   background: url("../../assets/destination/background-destination-desktop.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
+  min-height: 100vh;
 }
 .destination-content {
-  width: 70%;
-  height: 70vh;
+  width: 75%;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -31,4 +30,10 @@
   font-style: normal;
   color: white;
   font-size: 1.75rem;
+}
+@media (max-width: 900px) {
+  .page-title p,
+  .page-title span {
+    font-size: 1.25rem;
+  }
 }
