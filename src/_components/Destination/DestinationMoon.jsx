@@ -1,6 +1,6 @@
-import "../css/destination/moon/DestinationPageMoon.css";
-import DescMoonImg from "../assets/destination/image-moon.png";
-const DestinationMoon = () => {
+import "../../css/destination/moon/DestinationPageAllComponents.css";
+import DescMoonImg from "../../assets/destination/image-moon.png";
+const DestinationMoon = ({ setTabs, tabs }) => {
   return (
     <div className="moon-content">
       <div className="destination-img">
@@ -9,10 +9,21 @@ const DestinationMoon = () => {
       <div className="explanation">
         <div className="cover">
           <div className="destination-tabs">
-            <div className="tab active">MOON</div>
-            <div className="tab">MARS</div>
-            <div className="tab">EUROPA</div>
-            <div className="tab">TITAN</div>
+            <div
+              onClick={() => setTabs(0)}
+              className={`tab ${tabs === 0 && "active"}`}
+            >
+              MOON
+            </div>
+            <div onClick={() => setTabs(1)} className="tab">
+              MARS
+            </div>
+            <div onClick={() => setTabs(2)} className="tab">
+              EUROPA
+            </div>
+            <div onClick={() => setTabs(3)} className="tab">
+              TITAN
+            </div>
           </div>
           <div className="destination-text">
             <p className="moon-title">MOON</p>
