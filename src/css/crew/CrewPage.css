@@ -37,10 +37,23 @@
 @media (max-width: 900px) {
   .content-title p,
   .content-title span {
-    font-size: 1.25rem;
+    font-size: 1.5rem;
   }
   .crew-page {
     background: url("../../assets/crew/background-crew-tablet.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+  }
+}
+@media (max-width: 600px) {
+  .content-title p,
+  .content-title span {
+    font-size: 1.25rem;
+  }
+  .crew-page {
+    background: url("../../assets/crew/background-crew-mobile.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;

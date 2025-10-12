@@ -98,4 +98,36 @@
   .crew-text {
     font-size: 1rem;
   }
+  .crew-rightBar img {
+    width: 446px;
+    height: 560px;
+  }
+}
+@media (max-width: 600px) {
+  .crew-leftBar {
+    text-align: center;
+    align-items: center;
+  }
+  .crew-title {
+    font-family: "Bellefair", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2rem;
+    color: #fff;
+    opacity: 50%;
+  }
+  .crew-title {
+    font-size: 1.25rem;
+  }
+  .crew-name {
+    font-size: 1.5rem;
+  }
+  .crew-tab {
+    width: 10px;
+    height: 10px;
+  }
+  .crew-rightBar img {
+    width: 274px;
+    height: 340px;
+  }
 }

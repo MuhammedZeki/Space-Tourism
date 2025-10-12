@@ -3,11 +3,10 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 100vh;
+  min-height: 100vh;
 }
 .main-content {
   width: 70%;
-  height: 70vh;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -50,6 +49,7 @@
   font-style: normal;
   font-size: 1.125rem;
   max-width: 550px;
+  line-height: 180%;
 }
 .button {
   background-color: #fff;
@@ -92,6 +92,12 @@
   cursor: pointer;
 }
 @media (max-width: 900px) {
+  .home-page {
+    background: url("../../assets/home/background-home-tablet.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: conta;
+  }
   .hero {
     flex-direction: column;
     gap: 4rem;
@@ -108,6 +114,12 @@
   }
 }
 @media (max-width: 600px) {
+  .home-page {
+    background: url("../../assets/home/background-home-mobile.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
   .text-title {
     font-size: 1.3rem;
   }
