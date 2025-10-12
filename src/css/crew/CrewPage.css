@@ -1,22 +1,23 @@
-.destination-page {
-  background: url("../../assets/destination/background-destination-desktop.jpg");
+.crew-page {
+  background: url("../../assets/crew/background-crew-desktop.jpg");
   background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
   min-height: 100vh;
 }
-.destination-content {
+.crew-content {
   width: 75%;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
   gap: 1rem;
 }
-.page-title {
+.content-title {
   display: flex;
   gap: 1.5rem;
   padding: 1rem 0;
 }
-.page-title span {
+.content-title span {
   font-family: "Barlow Condensed", sans-serif;
   font-weight: 700;
   font-style: normal;
@@ -25,17 +26,11 @@
   opacity: 25%;
   letter-spacing: 0.25rem;
 }
-.page-title p {
+.content-title p {
   font-family: "Barlow Condensed", sans-serif;
   font-weight: 400;
   font-style: normal;
   color: white;
   font-size: 1.75rem;
   letter-spacing: 0.25rem;
-}
-@media (max-width: 900px) {
-  .page-title p,
-  .page-title span {
-    font-size: 1.25rem;
-  }
 }

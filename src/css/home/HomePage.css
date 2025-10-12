@@ -89,6 +89,7 @@
   font-style: normal;
   font-size: 2rem;
   z-index: 1;
+  cursor: pointer;
 }
 @media (max-width: 900px) {
   .hero {

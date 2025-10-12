@@ -1,0 +1,71 @@
+.content-inform {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  justify-content: space-between;
+}
+
+.crew-leftBar {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  height: 630px;
+}
+.crew-top {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  flex: 1;
+}
+.crew-title {
+  font-family: "Bellefair", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2rem;
+  color: #fff;
+  opacity: 50%;
+}
+.crew-name {
+  font-family: "Bellefair", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 3.5rem;
+  color: #fff;
+}
+.crew-text {
+  font-family: "Barlow", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.25rem;
+  color: #d0d6f9;
+  margin-top: 0.5rem;
+  max-width: 540px;
+  line-height: 180%;
+}
+.crew-bottom {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  height: 63px;
+}
+.crew-tab {
+  width: 15px;
+  height: 15px;
+  background-color: #fff;
+  opacity: 17%;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.active {
+  opacity: 1;
+}
+.crew-rightBar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.crew-rightBar img {
+  width: 539px;
+  height: 676px;
+  padding-bottom: 1rem;
+}
