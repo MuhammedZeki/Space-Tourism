@@ -2,6 +2,7 @@ import { useState } from "react";
 import DouglasHurley from "../_components/Crew/DouglasHurley";
 import Header from "../_components/Header";
 import "../css/crew/CrewPage.css";
+import MarkShuttleworth from "../_components/Crew/MarkShuttleworth";
 const Crew = () => {
   const [tabs, setTabs] = useState(0);
 
@@ -14,8 +15,8 @@ const Crew = () => {
           <p>MEET YOUR CREW</p>
         </div>
         {tabs === 0 && <DouglasHurley tabs={tabs} setTabs={setTabs} />}
+        {tabs === 1 && <MarkShuttleworth tabs={tabs} setTabs={setTabs} />}
         {/* {tabs === 1 && <DestinationMars tabs={tabs} setTabs={setTabs} />}
-        {tabs === 2 && <DestinationEuropa tabs={tabs} setTabs={setTabs} />}
         {tabs === 3 && <DestinationTitan tabs={tabs} setTabs={setTabs} />} */}
       </div>
     </div>
