@@ -4,6 +4,7 @@ import Header from "../_components/Header";
 import "../css/crew/CrewPage.css";
 import MarkShuttleworth from "../_components/Crew/MarkShuttleworth";
 import VictorGlover from "../_components/Crew/VictorGlover";
+import AnoushehAnsari from "../_components/Crew/AnoushehAnsari";
 const Crew = () => {
   const [tabs, setTabs] = useState(0);
 
@@ -18,6 +19,7 @@ const Crew = () => {
         {tabs === 0 && <DouglasHurley tabs={tabs} setTabs={setTabs} />}
         {tabs === 1 && <MarkShuttleworth tabs={tabs} setTabs={setTabs} />}
         {tabs === 2 && <VictorGlover tabs={tabs} setTabs={setTabs} />}
+        {tabs === 3 && <AnoushehAnsari tabs={tabs} setTabs={setTabs} />}
       </div>
     </div>
   );

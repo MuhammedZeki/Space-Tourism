@@ -1,0 +1,35 @@
+.tech-page {
+  background: url("../../assets/technology/background-technology-desktop.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+.tech-content {
+  width: 75%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.tech-title {
+  display: flex;
+  gap: 1.5rem;
+  padding: 1rem 0;
+}
+.tech-title span {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 1.75rem;
+  color: white;
+  opacity: 25%;
+  letter-spacing: 0.25rem;
+}
+.tech-title p {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  font-size: 1.75rem;
+  letter-spacing: 0.25rem;
+}
