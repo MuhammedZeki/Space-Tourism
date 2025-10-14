@@ -1,0 +1,91 @@
+.tech-inform {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  height: 100%;
+}
+.left-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.left-bar-content {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+}
+.left-content,
+.right-content {
+  display: flex;
+  flex-direction: column;
+}
+.left-content {
+  gap: 2rem;
+}
+.item {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  border: 1px solid #333;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Bellefair", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2rem;
+  color: white;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+.item:hover {
+  color: #fff;
+  border: 1px solid #fff;
+}
+.bar-active {
+  color: black !important;
+  background-color: white;
+  border: 1px solid transparent;
+}
+.right-content {
+  gap: 1.5rem;
+}
+.content-titles {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.content-titles span {
+  color: #fff;
+  opacity: 50%;
+  font-family: "Bellefair", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2rem;
+}
+.content-titles p {
+  color: #fff;
+  font-family: "Bellefair", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 3.5rem;
+}
+.content-text {
+  color: #d0d6f9;
+  font-family: "Barlow", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.25rem;
+  line-height: 180%;
+}
+.right-bar {
+  width: 608px;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.right-bar img {
+  object-fit: cover;
+}

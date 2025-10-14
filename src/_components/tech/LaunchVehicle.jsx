@@ -1,14 +1,20 @@
 import TechImg from "../../assets/technology/image-launch-vehicle-portrait.jpg";
-
+import "../../css/technology/TechAllPage.css";
 const LaunchVehicle = () => {
   return (
     <div className="tech-inform">
       <div className="left-bar">
         <div className="left-bar-content">
           <div className="left-content">
-            <div className="item">1</div>
-            <div className="item">2</div>
-            <div className="item">3</div>
+            <div className="item">
+              <span>1</span>
+            </div>
+            <div className="item bar-active">
+              <span>2</span>
+            </div>
+            <div className="item ">
+              <span>3</span>
+            </div>
           </div>
           <div className="right-content">
             <div className="content-titles">
