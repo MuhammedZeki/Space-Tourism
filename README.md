@@ -27,25 +27,19 @@ Bu projeyi kendi bilgisayarınızda çalıştırmak için aşağıdaki adımlar�
 ## 🚀 Getting Started  
 1. Depoyu Klonlama  
    ```bash
-  git clone [https://github.com/MuhammedZeki/Space-Tourism.git](https://github.com/MuhammedZeki/Space-Tourism.git)
-  cd Space-Tourism
+     git clone [https://github.com/MuhammedZeki/Space-Tourism.git](https://github.com/MuhammedZeki/Space-Tourism.git)
+     cd Space-Tourism
   
 2. Bağımlılıkları Yükleme
    ```bash
-  npm install
-  # veya
-  yarn install 
+     npm install
   
 3. Geliştirme Sunucusunu Başlatma
     ```bash
-  npm run dev
-  # veya
-  yarn dev
+     npm run dev
 4. Üretim İçin Derleme (Build)
     ```bash
-   npm run build
-    # veya
-    yarn build
+      npm run build
 
 
 
