@@ -1,16 +1,48 @@
-# React + Vite
+# 🚀 Uzay Turizmi Web Sitesi | Space Tourism Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bu proje, **Frontend Mentor**'ın zorlu **Space Tourism Multi-Page Website** meydan okumasının tam bir çözümüdür. Proje, Vite ve React kullanılarak modern, tam duyarlı (fully responsive) bir web deneyimi sunmayı amaçlamaktadır.
 
-Currently, two official plugins are available:
+## ✨ Özellikler
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+* **Tam Duyarlılık (Full Responsive):** Tasarım, Desktop, Tablet ve Mobil cihazlar için Figma dosyasına sadık kalınarak oluşturulmuştur.
+* **Çoklu Sayfa Navigasyonu:** Ana Sayfa (Home), Hedefler (Destination), Mürettebat (Crew) ve Teknolojiler (Technology) arasında gezinti.
+* **Dinamik Sekme İçerikleri:** Hedefler, Mürettebat ve Teknoloji sayfalarında dinamik olarak değişen sekme navigasyonu ve içerik geçişleri (JavaScript ile kontrol).
+* **Modern Karanlık Tema:** Şık, karanlık ve uzay temalı arayüz tasarımı.
+* **Optimizasyon:** Vite'ın getirdiği hız ve performans avantajları.
+* **Responsive Görseller:** Farklı ekran boyutlarına göre görsel kaynaklarını (örneğin `<picture>` etiketiyle) optimize etme çabaları.
 
-## React Compiler
+## 🛠️ Teknolojiler
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Bu proje aşağıdaki modern teknolojiler kullanılarak geliştirilmiştir:
 
-## Expanding the ESLint configuration
+* **Frontend Kütüphanesi:** React
+* **Build Tool:** Vite
+* **Styling:** CSS3 & Responsive Design (Flexbox / CSS Grid)
+* **Routing (Opsiyonel):** React Router DOM (Eğer kullandıysanız)
+* **Versiyon Kontrol:** Git & GitHub
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ⚙️ Yerel Kurulum
+
+Bu projeyi kendi bilgisayarınızda çalıştırmak için aşağıdaki adımları izleyin:
+
+### 1. Depoyu Klonlama
+
+```bash
+git clone [https://github.com/MuhammedZeki/Space-Tourism.git](https://github.com/MuhammedZeki/Space-Tourism.git)
+cd Space-Tourism
+
+### 2. Bağımlılıkları Yükleme
+
+```bash
+npm install
+
+### 3. Geliştirme Sunucusunu Başlatma
+
+```bash
+npm run dev
+
+### 4. Üretim İçin Derleme (Build)
+
+```bash
+npm run build
+
