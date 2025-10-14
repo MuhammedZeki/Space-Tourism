@@ -17,8 +17,8 @@ Bu proje aşağıdaki modern teknolojiler kullanılarak geliştirilmiştir:
 
 * **Frontend Kütüphanesi:** React
 * **Build Tool:** Vite
-* **Styling:** CSS3 & Responsive Design (Flexbox / CSS Grid)
-* **Routing (Opsiyonel):** React Router DOM (Eğer kullandıysanız)
+* **Styling:** CSS3 & Responsive Design (Flexbox)
+* **Routing :React Router DOM 
 * **Versiyon Kontrol:** Git & GitHub
 
 ## ⚙️ Yerel Kurulum
