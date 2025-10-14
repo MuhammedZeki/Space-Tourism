@@ -33,3 +33,29 @@
   font-size: 1.75rem;
   letter-spacing: 0.25rem;
 }
+@media (max-width: 900px) {
+  .tech-page {
+    background: url("../../assets/technology/background-technology-tablet.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+  }
+
+  .tech-title span,
+  .tech-title p {
+    font-size: 1.25rem;
+  }
+}
+@media (max-width: 600px) {
+  .tech-page {
+    background: url("../../assets/technology/background-technology-mobile.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+  }
+
+  .tech-title span,
+  .tech-title p {
+    font-size: 1rem;
+  }
+}
