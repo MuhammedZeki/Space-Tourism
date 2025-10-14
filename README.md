@@ -24,9 +24,7 @@ Bu proje aşağıdaki modern teknolojiler kullanılarak geliştirilmiştir:
 ## ⚙️ Yerel Kurulum
 
 Bu projeyi kendi bilgisayarınızda çalıştırmak için aşağıdaki adımları izleyin:
-
-### 1. Depoyu Klonlama
-
+### 1. Depoyu Klonlama  
 ```bash
 git clone [https://github.com/MuhammedZeki/Space-Tourism.git](https://github.com/MuhammedZeki/Space-Tourism.git)
 cd Space-Tourism
@@ -45,4 +43,6 @@ npm run dev
 
 ```bash
 npm run build
+
+
 
