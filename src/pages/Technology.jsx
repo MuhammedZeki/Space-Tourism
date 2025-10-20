@@ -17,6 +17,7 @@ const Technology = () => {
         </div>
         {tabs === 0 && <LaunchVehicle tabs={tabs} setTabs={setTabs} />}
         {tabs === 1 && <SpacePort tabs={tabs} setTabs={setTabs} />}
+        {tabs === 2 && <SpaceCapsule tabs={tabs} setTabs={setTabs} />}
       </div>
     </div>
   );

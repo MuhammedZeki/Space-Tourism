@@ -3,6 +3,7 @@
   align-items: center;
   gap: 2rem;
   justify-content: center;
+  /* flex-wrap: wrap; */
 }
 .left-bar {
   display: flex;
@@ -80,13 +81,14 @@
   line-height: 180%;
 }
 .right-bar {
-  width: 608px;
   height: 600px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-
+.right-bar img {
+  border-radius: 10px;
+}
 @media (max-width: 900px) {
   .tech-inform {
     flex-direction: column-reverse;

@@ -10,6 +10,7 @@
   margin-left: 1rem;
   background-color: #979797;
 }
+
 .logo {
   display: flex;
   align-items: center;
@@ -78,5 +79,55 @@
   }
   .header-nav {
     align-items: center;
+    position: relative;
+  }
+  .mobileMenu {
+    position: absolute;
+    right: 0;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #ffffff;
+    z-index: 3;
+    display: flex;
+    justify-content: flex-end;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .closeIcon {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 30px;
+  }
+  .mobileMenu .nav-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5rem;
+    width: 80%;
+    background-color: transparent;
+    backdrop-filter: none;
+  }
+
+  .mobileMenu .nav-link span,
+  .mobileMenu .nav-link p {
+    color: #1a1a1a;
+    font-size: 1.25rem;
+  }
+
+  .mobileMenu .nav-link a {
+    padding: 1rem 0;
+    border-bottom: 2px solid transparent;
+  }
+
+  .mobileMenu .active {
+    border-bottom: 2px solid #1a1a1a !important;
+  }
+
+  .mobileMenu .nav-link a:hover {
+    border-bottom: 2px solid #555 !important;
   }
 }
